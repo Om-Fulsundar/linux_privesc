@@ -34,18 +34,18 @@ linux_privesc/
 │   ├── cron_scan.py
 │   └── kernel_scan.py
 │
-└── report/
-    └── output/
-        ├── suid_scan_output.json
-        ├── perms_scan_output.json
-        ├── services_scan_output.json
-        ├── cron_scan_output.json
-        ├── kernel_scan_output.json
-        └── final_report.txt
+└── report/                        # it will create once you run the tool
+│    └── output/
+│        ├── suid_scan_output.json
+│        ├── perms_scan_output.json
+│        ├── services_scan_output.json
+│        ├── cron_scan_output.json
+│        ├── kernel_scan_output.json
+│        └── final_report.txt     
 │
 └── docs/
     └── screenshots/
-    └── linux privesc diagram  # flowchart and workflow diagram
+    └── linux privesc diagram    # flowchart and workflow diagram
     └── linux-privesc ppt
     └── Linux Privesc doc
 ```
